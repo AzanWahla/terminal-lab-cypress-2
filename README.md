@@ -27,7 +27,7 @@ npm run cy:open
 Task 1 tests are stored in `cypress/e2e/task1/`.
 
 - `login-valid.cy.js`, `login-invalid-password.cy.js`, and `login-empty-validation.cy.js` cover valid login, incorrect password, and empty-field validation.
-- `navigation.cy.js` covers cart navigation and visiting two pages in sequence.
+- `navigation-cart-link.cy.js` and `navigation-sequence.cy.js` cover cart navigation and visiting two pages in sequence.
 - `form.cy.js` covers checkout form submission and verifies the overview page.
 
 Each Task 1 test uses `cy.visit()`, `cy.get()`, and `cy.should()`.
