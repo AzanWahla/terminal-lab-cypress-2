@@ -1,0 +1,6 @@
+node_modules/
+.tools/
+cypress/videos/
+report_render/
+report_pdf_render/
+*.log
