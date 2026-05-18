@@ -1,0 +1,14 @@
+{
+  "name": "terminal-lab-cypress-2",
+  "version": "1.0.0",
+  "description": "Cypress E2E tests for Software Automated Testing terminal lab.",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}
